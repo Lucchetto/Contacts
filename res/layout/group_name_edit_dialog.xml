@@ -23,9 +23,7 @@
     android:orientation="vertical"
     android:paddingTop="@dimen/custom_dialog_layout_padding"
     android:paddingEnd="@dimen/custom_dialog_layout_padding"
-    android:paddingStart="@dimen/custom_dialog_layout_padding"
-    app:errorEnabled="true"
-    app:hintEnabled="false">
+    android:paddingStart="@dimen/custom_dialog_layout_padding">
 
     <!-- In Android P there is no initial focus by default in touch mode. See b/77244371 -->
     <requestFocus />
