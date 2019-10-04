@@ -1,0 +1,3 @@
+[submodule "modules/PhoneCommon"]
+	path = modules/PhoneCommon
+	url = https://github.com/LineageOS/android_packages_apps_PhoneCommon
