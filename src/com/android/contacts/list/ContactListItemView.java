@@ -1156,8 +1156,7 @@ public class ContactListItemView extends ViewGroup
             mNameTextView = new TextView(getContext());
             mNameTextView.setSingleLine(true);
             mNameTextView.setEllipsize(getTextEllipsis());
-            mNameTextView.setTextColor(ResourcesCompat.getColorStateList(getResources(),
-                    R.color.contact_list_name_text_color, getContext().getTheme()));
+            mNameTextView.setTextAppearance(R.style.contactlistitemtextview);
             mNameTextView.setTextSize(TypedValue.COMPLEX_UNIT_PX, mNameTextViewTextSize);
             // Manually call setActivated() since this view may be added after the first
             // setActivated() call toward this whole item view.
