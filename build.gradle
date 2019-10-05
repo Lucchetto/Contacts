@@ -103,3 +103,11 @@ dependencies {
     implementation "androidx.legacy:legacy-support-v13:${SUPPORT_LIBS_VERSION}"
     implementation "androidx.recyclerview:recyclerview:${SUPPORT_LIBS_VERSION}"
 }
+
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
