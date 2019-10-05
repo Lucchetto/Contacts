@@ -43,7 +43,6 @@
                 android:gravity="center_vertical"
                 android:text="@string/editor_more_fields"
                 android:textAlignment="viewStart"
-                android:textColor="?android:attr/colorAccent"
                 android:textSize="@dimen/expanding_entry_card_title_text_size"/>
 
     </LinearLayout>

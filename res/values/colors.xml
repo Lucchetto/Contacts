@@ -104,9 +104,6 @@
     <!-- Text color for section header. -->
     <color name="section_header_text_color">@color/dialtacts_theme_color</color>
 
-    <!-- Color of the theme of the People app -->
-    <color name="people_app_theme_color">#363636</color>
-
     <!-- Color of the theme of the Dialer app -->
     <color name="dialtacts_theme_color">#2a56c6</color>
 
