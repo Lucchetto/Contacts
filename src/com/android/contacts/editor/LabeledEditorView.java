@@ -619,7 +619,7 @@ public abstract class LabeledEditorView extends LinearLayout implements Editor, 
             if (!LabeledEditorView.this.isEmpty()) {
                 view.setTextColor(mTextColorDark);
             } else {
-                view.setTextColor(mTextColorHintUnfocused);
+                view.setTextAppearance(R.style.fieldviewtext);
             }
             return view;
         }
@@ -641,7 +641,7 @@ public abstract class LabeledEditorView extends LinearLayout implements Editor, 
                 textView = (TextView) mInflater.inflate(resource, parent, false);
                 textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(
                         R.dimen.editor_form_text_size));
-                textView.setTextColor(mTextColorDark);
+                textView.setTextAppearance(R.style.fieldviewtextprimary);
             } else {
                 textView = (TextView) convertView;
             }

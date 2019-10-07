@@ -277,7 +277,7 @@ public class TextFieldsEditorView extends LabeledEditorView {
                     LayoutParams.WRAP_CONTENT));
             fieldView.setTextSize(TypedValue.COMPLEX_UNIT_PX,
                     getResources().getDimension(R.dimen.editor_form_text_size));
-            fieldView.setHintTextColor(mHintTextColorUnfocused);
+            fieldView.setTextAppearance(R.style.fieldviewtexthint);
             mFieldEditTexts[index] = fieldView;
             fieldView.setId(vig.getId(state, kind, entry, index));
             if (field.titleRes > 0) {

@@ -576,4 +576,21 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
+    <style name="fieldviewtexthint">
+        <item name="android:textColorHint">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="fieldviewtext">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="fieldviewtextprimary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="datepicker_dialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:background">?android:colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
 </resources>
