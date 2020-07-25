@@ -97,10 +97,8 @@ dependencies {
     implementation "androidx.appcompat:appcompat:${SUPPORT_LIBS_VERSION}"
     implementation "androidx.cardview:cardview:${SUPPORT_LIBS_VERSION}"
     implementation "com.google.android.material:material:${SUPPORT_LIBS_VERSION}"
-    implementation "androidx.legacy:legacy-support-v4:${SUPPORT_LIBS_VERSION}"
     implementation "androidx.palette:palette:${SUPPORT_LIBS_VERSION}"
     implementation "androidx.transition:transition:${SUPPORT_LIBS_VERSION}"
-    implementation "androidx.legacy:legacy-support-v13:${SUPPORT_LIBS_VERSION}"
     implementation "androidx.recyclerview:recyclerview:${SUPPORT_LIBS_VERSION}"
 }
 
