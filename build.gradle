@@ -68,8 +68,8 @@ android {
     productFlavors {
         aosp {
             flavorDimensions 'default'
-            applicationId 'com.android.contacts3'
-            testApplicationId 'com.android.contacts.tests'
+            applicationId 'com.revengeos.contacts'
+            testApplicationId 'com.revengeos.contacts.tests'
         }
     }
 
